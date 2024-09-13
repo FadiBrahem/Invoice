@@ -37,9 +37,9 @@ Installation
 
     Clone the Repository or Download the Source Code
 
-    bash
+    
 
-git clone https://github.com/yourusername/invoice-application.git
+git clone https://github.com/FadiBrahem/invoice-application.git
 cd invoice-application
 
 Install Required Python Packages
