@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Invoice {{ invoice_id }}</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .invoice-box { max-width: 800px; margin: auto; padding: 30px; }
+        .header { text-align: center; }
+        .details { margin-top: 20px; }
+        .details th, .details td { padding: 5px; text-align: left; }
+    </style>
+</head>
+<body>
+    <div class="invoice-box">
+        <h1 class="header">Invoice {{ invoice_id }}</h1>
+        <table class="details">
+            <tr>
+                <th>Customer Name:</th>
+                <td>{{ customer }}</td>
+            </tr>
+            <tr>
+                <th>Amount:</th>
+                <td>${{ amount }}</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
